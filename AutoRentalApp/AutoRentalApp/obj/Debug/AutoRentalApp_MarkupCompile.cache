@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\ngdd\Desktop\ProkatAvto\AutoRentalApp\AutoRentalApp\App.xaml
-3-1116451651
+10-812863579
 
-21-1441965068
+28918849464
 48127593631
-MainWindow.xaml;Views\LoginWindow.xaml;Views\RegisterWindow.xaml;
+MainWindow.xaml;Views\AddEditCarWindow.xaml;Views\AddEditClientWindow.xaml;Views\AddEditEmployeeWindow.xaml;Views\AdminWindow.xaml;Views\CarsView.xaml;Views\ClientsView.xaml;Views\EmployeesView.xaml;Views\LoginWindow.xaml;Views\RegisterWindow.xaml;
 
 False
 

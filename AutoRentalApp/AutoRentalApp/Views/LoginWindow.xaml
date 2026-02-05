@@ -45,18 +45,10 @@
                     <Button Content="РЕГИСТРАЦИЯ" Background="#4CAF50" Style="{StaticResource PrimaryButton}" 
                             Click="RegisterButton_Click" Width="150" Height="40"/>
                 </StackPanel>
-
-                <TextBlock Text="Тестовые данные для входа:" FontSize="11" Foreground="#757575" 
-                           HorizontalAlignment="Center" Margin="0,20,0,5"/>
-                <TextBlock Text="Логин: admin" FontSize="11" Foreground="#757575" HorizontalAlignment="Center"/>
-                <TextBlock Text="Пароль: admin123" FontSize="11" Foreground="#757575" HorizontalAlignment="Center"/>
             </StackPanel>
         </Border>
 
         <!-- Футер -->
-        <Border Grid.Row="2" Background="#2196F3">
-            <TextBlock Text="© 2026 ООО «Авто в прокат»" Foreground="White" 
-                       HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        </Border>
+        <Border Grid.Row="2" Background="#2196F3"/>
     </Grid>
 </Window>

@@ -1,9 +1,9 @@
 ﻿using AutoRentalApp.Data;
 using AutoRentalApp.Helpers;
 using AutoRentalApp.Services;
+using AutoRentalApp.Views; // ДОБАВЛЕНО: для доступа к окнам
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Media;
 
 namespace AutoRentalApp.Views
 {
@@ -51,21 +51,21 @@ namespace AutoRentalApp.Views
             if (!isValid)
                 return;
 
-            // Авторизация через сервис
-            var (success, message, user) = _authService.Login(login, password);
+            // Авторизация через сервис (БЕЗ кортежей — для .NET Framework 4.7.2)
+            var result = _authService.Login(login, password);
 
-            if (success)
+            if (result.success)
             {
-                MessageBox.Show($"Добро пожаловать, {user.FullName}!\nРоль: {user.Role?.RoleName}",
+                MessageBox.Show($"Добро пожаловать, {result.user.FullName}!\nРоль: {result.user.Role?.RoleName}",
                     "Успешный вход", MessageBoxButton.OK, MessageBoxImage.Information);
 
                 // Перенаправление в зависимости от роли
-                OpenMainWindow(user);
+                OpenMainWindow(result.user);
                 this.Close();
             }
             else
             {
-                MessageBox.Show(message, "Ошибка авторизации", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show(result.message, "Ошибка авторизации", MessageBoxButton.OK, MessageBoxImage.Error);
                 PasswordBox.Clear();
             }
         }
@@ -83,32 +83,35 @@ namespace AutoRentalApp.Views
 
         private void OpenMainWindow(AutoRentalApp.Models.User user)
         {
-            // Создание главного окна в зависимости от роли
             Window mainWindow = null;
 
             switch (user.Role?.RoleName)
             {
                 case "администратор":
-                    // Здесь будет окно администратора
-                    mainWindow = CreateTestWindow(user.FullName, "Панель администратора");
+                    // Создаем реальную панель администратора
+                    mainWindow = new AdminWindow(_authService, _dbContext);
                     break;
+
                 case "менеджер":
-                    // Здесь будет окно менеджера
-                    mainWindow = CreateTestWindow(user.FullName, "Панель менеджера");
+                    // ВРЕМЕННАЯ ЗАГЛУШКА для менеджера (пока нет окна)
+                    mainWindow = CreatePlaceholderWindow(user.FullName, "Панель менеджера");
                     break;
+
                 case "клиент":
-                    // Здесь будет окно клиента
-                    mainWindow = CreateTestWindow(user.FullName, "Личный кабинет клиента");
+                    // ВРЕМЕННАЯ ЗАГЛУШКА для клиента (пока нет окна)
+                    mainWindow = CreatePlaceholderWindow(user.FullName, "Личный кабинет клиента");
                     break;
+
                 default:
-                    mainWindow = CreateTestWindow(user.FullName, "Главное окно");
+                    mainWindow = CreatePlaceholderWindow(user.FullName, "Главное окно");
                     break;
             }
 
             mainWindow.Show();
         }
 
-        private Window CreateTestWindow(string userName, string title)
+        // ВРЕМЕННАЯ ЗАГЛУШКА: Создание простого окна для ролей без полноценного интерфейса
+        private Window CreatePlaceholderWindow(string userName, string title)
         {
             var window = new Window
             {
@@ -116,47 +119,47 @@ namespace AutoRentalApp.Views
                 Width = 800,
                 Height = 600,
                 WindowStartupLocation = WindowStartupLocation.CenterScreen,
-                Background = Brushes.White
+                Background = System.Windows.Media.Brushes.White
             };
 
             var grid = new Grid();
-            grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(60) });
-            grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(1, GridUnitType.Star) });
+            grid.RowDefinitions.Add(new RowDefinition { Height = new System.Windows.GridLength(60) });
+            grid.RowDefinitions.Add(new RowDefinition { Height = new System.Windows.GridLength(1, System.Windows.GridUnitType.Star) });
 
             // Шапка
-            var header = new Border
+            var header = new System.Windows.Controls.Border
             {
-                Background = new SolidColorBrush((Color)System.Windows.Media.ColorConverter.ConvertFromString("#2196F3")),
-                Padding = new Thickness(20, 0, 20, 0)
+                Background = new System.Windows.Media.SolidColorBrush((System.Windows.Media.Color)System.Windows.Media.ColorConverter.ConvertFromString("#2196F3")),
+                Padding = new System.Windows.Thickness(20, 0, 20, 0)
             };
-            var headerPanel = new StackPanel { Orientation = Orientation.Horizontal };
-            headerPanel.Children.Add(new TextBlock { Text = "🚗 ", FontSize = 24, Foreground = Brushes.White });
-            headerPanel.Children.Add(new TextBlock
+            var headerPanel = new System.Windows.Controls.StackPanel { Orientation = System.Windows.Controls.Orientation.Horizontal };
+            headerPanel.Children.Add(new System.Windows.Controls.TextBlock { Text = "🚗 ", FontSize = 24, Foreground = System.Windows.Media.Brushes.White });
+            headerPanel.Children.Add(new System.Windows.Controls.TextBlock
             {
                 Text = $"{title} | {userName}",
                 FontSize = 18,
-                FontWeight = FontWeights.Bold,
-                Foreground = Brushes.White,
-                VerticalAlignment = VerticalAlignment.Center
+                FontWeight = System.Windows.FontWeights.Bold,
+                Foreground = System.Windows.Media.Brushes.White,
+                VerticalAlignment = System.Windows.VerticalAlignment.Center
             });
             header.Child = headerPanel;
-            Grid.SetRow(header, 0);
+            System.Windows.Controls.Grid.SetRow(header, 0);
             grid.Children.Add(header);
 
             // Контент
-            var content = new TextBlock
+            var content = new System.Windows.Controls.TextBlock
             {
                 Text = $"Добро пожаловать в систему проката автомобилей!\n\n" +
                        $"✅ Авторизация успешна\n" +
                        $"✅ Роль: {title}\n" +
                        $"✅ Пользователь: {userName}\n\n" +
-                       "Дальнейшая разработка интерфейса в процессе...",
+                       "Полноценный интерфейс для этой роли находится в разработке.",
                 FontSize = 16,
-                TextAlignment = TextAlignment.Center,
-                VerticalAlignment = VerticalAlignment.Center,
-                Margin = new Thickness(20)
+                TextAlignment = System.Windows.TextAlignment.Center,
+                VerticalAlignment = System.Windows.VerticalAlignment.Center,
+                Margin = new System.Windows.Thickness(20)
             };
-            Grid.SetRow(content, 1);
+            System.Windows.Controls.Grid.SetRow(content, 1);
             grid.Children.Add(content);
 
             window.Content = grid;

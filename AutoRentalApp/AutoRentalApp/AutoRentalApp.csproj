@@ -157,6 +157,27 @@
     <Compile Include="Models\CarInspection.cs" />
     <Compile Include="Models\ContractService.cs" />
     <Compile Include="Services\AuthService.cs" />
+    <Compile Include="Views\AddEditCarWindow.xaml.cs">
+      <DependentUpon>AddEditCarWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddEditClientWindow.xaml.cs">
+      <DependentUpon>AddEditClientWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddEditEmployeeWindow.xaml.cs">
+      <DependentUpon>AddEditEmployeeWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AdminWindow.xaml.cs">
+      <DependentUpon>AdminWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CarsView.xaml.cs">
+      <DependentUpon>CarsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ClientsView.xaml.cs">
+      <DependentUpon>ClientsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EmployeesView.xaml.cs">
+      <DependentUpon>EmployeesView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\LoginWindow.xaml.cs">
       <DependentUpon>LoginWindow.xaml</DependentUpon>
     </Compile>
@@ -177,6 +198,34 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Views\AddEditCarWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AddEditClientWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AddEditEmployeeWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AdminWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\CarsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ClientsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\EmployeesView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\LoginWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

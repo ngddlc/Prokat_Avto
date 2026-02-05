@@ -85,3 +85,17 @@ C:\Users\ngdd\Desktop\ProkatAvto\AutoRentalApp\AutoRentalApp\obj\Debug\Views\Log
 C:\Users\ngdd\Desktop\ProkatAvto\AutoRentalApp\AutoRentalApp\obj\Debug\Views\RegisterWindow.baml
 C:\Users\ngdd\Desktop\ProkatAvto\AutoRentalApp\AutoRentalApp\obj\Debug\Views\LoginWindow.g.cs
 C:\Users\ngdd\Desktop\ProkatAvto\AutoRentalApp\AutoRentalApp\obj\Debug\Views\RegisterWindow.g.cs
+C:\Users\ngdd\Desktop\ProkatAvto\AutoRentalApp\AutoRentalApp\obj\Debug\Views\AdminWindow.baml
+C:\Users\ngdd\Desktop\ProkatAvto\AutoRentalApp\AutoRentalApp\obj\Debug\Views\ClientsView.baml
+C:\Users\ngdd\Desktop\ProkatAvto\AutoRentalApp\AutoRentalApp\obj\Debug\Views\AdminWindow.g.cs
+C:\Users\ngdd\Desktop\ProkatAvto\AutoRentalApp\AutoRentalApp\obj\Debug\Views\ClientsView.g.cs
+C:\Users\ngdd\Desktop\ProkatAvto\AutoRentalApp\AutoRentalApp\obj\Debug\Views\AddEditClientWindow.baml
+C:\Users\ngdd\Desktop\ProkatAvto\AutoRentalApp\AutoRentalApp\obj\Debug\Views\AddEditClientWindow.g.cs
+C:\Users\ngdd\Desktop\ProkatAvto\AutoRentalApp\AutoRentalApp\obj\Debug\Views\AddEditCarWindow.baml
+C:\Users\ngdd\Desktop\ProkatAvto\AutoRentalApp\AutoRentalApp\obj\Debug\Views\AddEditEmployeeWindow.baml
+C:\Users\ngdd\Desktop\ProkatAvto\AutoRentalApp\AutoRentalApp\obj\Debug\Views\EmployeesView.baml
+C:\Users\ngdd\Desktop\ProkatAvto\AutoRentalApp\AutoRentalApp\obj\Debug\Views\AddEditCarWindow.g.cs
+C:\Users\ngdd\Desktop\ProkatAvto\AutoRentalApp\AutoRentalApp\obj\Debug\Views\AddEditEmployeeWindow.g.cs
+C:\Users\ngdd\Desktop\ProkatAvto\AutoRentalApp\AutoRentalApp\obj\Debug\Views\EmployeesView.g.cs
+C:\Users\ngdd\Desktop\ProkatAvto\AutoRentalApp\AutoRentalApp\obj\Debug\Views\CarsView.baml
+C:\Users\ngdd\Desktop\ProkatAvto\AutoRentalApp\AutoRentalApp\obj\Debug\Views\CarsView.g.cs

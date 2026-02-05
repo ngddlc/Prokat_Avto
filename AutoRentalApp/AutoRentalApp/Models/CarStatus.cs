@@ -7,10 +7,12 @@ namespace AutoRentalApp.Models
     public class CarStatus
     {
         [Key]
+        [Column("carstatusid")]
         public int CarStatusID { get; set; }
 
         [Required]
         [StringLength(50)]
+        [Column("statusname")]
         public string StatusName { get; set; }
     }
 }

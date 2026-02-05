@@ -3,92 +3,104 @@
   "WorkspaceRootPath": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|c:\\users\\ngdd\\desktop\\prokatavto\\autorentalapp\\autorentalapp\\views\\addeditcarwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\views\\addeditcarwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\autorentalapp\\models\\additionalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\models\\additionalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\autorentalapp\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|c:\\users\\ngdd\\desktop\\prokatavto\\autorentalapp\\autorentalapp\\views\\addeditemployeewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\views\\addeditemployeewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|c:\\users\\ngdd\\desktop\\prokatavto\\autorentalapp\\autorentalapp\\views\\addeditemployeewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\views\\addeditemployeewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|c:\\users\\ngdd\\desktop\\prokatavto\\autorentalapp\\autorentalapp\\views\\employeesview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\views\\employeesview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|c:\\users\\ngdd\\desktop\\prokatavto\\autorentalapp\\autorentalapp\\views\\employeesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\views\\employeesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|c:\\users\\ngdd\\desktop\\prokatavto\\autorentalapp\\autorentalapp\\views\\carsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\views\\carsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|c:\\users\\ngdd\\desktop\\prokatavto\\autorentalapp\\autorentalapp\\views\\carsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\views\\carsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|c:\\users\\ngdd\\desktop\\prokatavto\\autorentalapp\\autorentalapp\\views\\addeditclientwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\views\\addeditclientwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|c:\\users\\ngdd\\desktop\\prokatavto\\autorentalapp\\autorentalapp\\views\\addeditclientwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\views\\addeditclientwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|c:\\users\\ngdd\\desktop\\prokatavto\\autorentalapp\\autorentalapp\\views\\clientsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\views\\clientsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|c:\\users\\ngdd\\desktop\\prokatavto\\autorentalapp\\autorentalapp\\views\\clientsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\views\\clientsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|c:\\users\\ngdd\\desktop\\prokatavto\\autorentalapp\\autorentalapp\\views\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\views\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\autorentalapp\\views\\registerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\views\\registerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|c:\\users\\ngdd\\desktop\\prokatavto\\autorentalapp\\autorentalapp\\views\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\views\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|c:\\users\\ngdd\\desktop\\prokatavto\\autorentalapp\\autorentalapp\\views\\registerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\views\\registerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|c:\\users\\ngdd\\desktop\\prokatavto\\autorentalapp\\autorentalapp\\views\\registerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\views\\registerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|c:\\users\\ngdd\\desktop\\prokatavto\\autorentalapp\\autorentalapp\\models\\carinspection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\models\\carinspection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|c:\\users\\ngdd\\desktop\\prokatavto\\autorentalapp\\autorentalapp\\models\\additionalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\models\\additionalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|c:\\users\\ngdd\\desktop\\prokatavto\\autorentalapp\\autorentalapp\\models\\contractservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\models\\contractservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|c:\\users\\ngdd\\desktop\\prokatavto\\autorentalapp\\autorentalapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|c:\\users\\ngdd\\desktop\\prokatavto\\autorentalapp\\autorentalapp\\helpers\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\helpers\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|c:\\users\\ngdd\\desktop\\prokatavto\\autorentalapp\\autorentalapp\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|c:\\users\\ngdd\\desktop\\prokatavto\\autorentalapp\\autorentalapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|c:\\users\\ngdd\\desktop\\prokatavto\\autorentalapp\\autorentalapp\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|c:\\users\\ngdd\\desktop\\prokatavto\\autorentalapp\\autorentalapp\\models\\rentalcontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\models\\rentalcontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|c:\\users\\ngdd\\desktop\\prokatavto\\autorentalapp\\autorentalapp\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|c:\\users\\ngdd\\desktop\\prokatavto\\autorentalapp\\autorentalapp\\models\\contractstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\models\\contractstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|c:\\users\\ngdd\\desktop\\prokatavto\\autorentalapp\\autorentalapp\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|c:\\users\\ngdd\\desktop\\prokatavto\\autorentalapp\\autorentalapp\\models\\carstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\autorentalapp\\models\\carstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\models\\carstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|c:\\users\\ngdd\\desktop\\prokatavto\\autorentalapp\\autorentalapp\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\autorentalapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\autorentalapp\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|c:\\users\\ngdd\\desktop\\prokatavto\\autorentalapp\\autorentalapp\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|c:\\users\\ngdd\\desktop\\prokatavto\\autorentalapp\\autorentalapp\\views\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\views\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|c:\\users\\ngdd\\desktop\\prokatavto\\autorentalapp\\autorentalapp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|c:\\users\\ngdd\\desktop\\prokatavto\\autorentalapp\\autorentalapp\\views\\addeditcarwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\views\\addeditcarwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|c:\\users\\ngdd\\desktop\\prokatavto\\autorentalapp\\autorentalapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\autorentalapp\\views\\registerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\views\\registerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|c:\\users\\ngdd\\desktop\\prokatavto\\autorentalapp\\autorentalapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\autorentalapp\\models\\carinspection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\models\\carinspection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|c:\\users\\ngdd\\desktop\\prokatavto\\autorentalapp\\autorentalapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\autorentalapp\\models\\contractservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\models\\contractservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\autorentalapp\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D62D9E2-0170-4E4B-BDF3-D75315BFD413}|AutoRentalApp\\AutoRentalApp.csproj|solutionrelative:autorentalapp\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -102,7 +114,182 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddEditEmployeeWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Views\\AddEditEmployeeWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AutoRentalApp\\Views\\AddEditEmployeeWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Views\\AddEditEmployeeWindow.xaml.cs",
+              "RelativeToolTip": "AutoRentalApp\\Views\\AddEditEmployeeWindow.xaml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAiwHkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T08:06:02.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddEditEmployeeWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Views\\AddEditEmployeeWindow.xaml",
+              "RelativeDocumentMoniker": "AutoRentalApp\\Views\\AddEditEmployeeWindow.xaml",
+              "ToolTip": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Views\\AddEditEmployeeWindow.xaml",
+              "RelativeToolTip": "AutoRentalApp\\Views\\AddEditEmployeeWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-05T08:05:17.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "EmployeesView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Views\\EmployeesView.xaml.cs",
+              "RelativeDocumentMoniker": "AutoRentalApp\\Views\\EmployeesView.xaml.cs",
+              "ToolTip": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Views\\EmployeesView.xaml.cs",
+              "RelativeToolTip": "AutoRentalApp\\Views\\EmployeesView.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAHcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T08:04:43.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeesView.xaml",
+              "DocumentMoniker": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Views\\EmployeesView.xaml",
+              "RelativeDocumentMoniker": "AutoRentalApp\\Views\\EmployeesView.xaml",
+              "ToolTip": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Views\\EmployeesView.xaml",
+              "RelativeToolTip": "AutoRentalApp\\Views\\EmployeesView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-05T08:04:15.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AddEditCarWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Views\\AddEditCarWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AutoRentalApp\\Views\\AddEditCarWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Views\\AddEditCarWindow.xaml.cs",
+              "RelativeToolTip": "AutoRentalApp\\Views\\AddEditCarWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPkAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T07:54:08.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddEditCarWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Views\\AddEditCarWindow.xaml",
+              "RelativeDocumentMoniker": "AutoRentalApp\\Views\\AddEditCarWindow.xaml",
+              "ToolTip": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Views\\AddEditCarWindow.xaml*",
+              "RelativeToolTip": "AutoRentalApp\\Views\\AddEditCarWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-05T07:53:22.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CarsView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Views\\CarsView.xaml.cs",
+              "RelativeDocumentMoniker": "AutoRentalApp\\Views\\CarsView.xaml.cs",
+              "ToolTip": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Views\\CarsView.xaml.cs",
+              "RelativeToolTip": "AutoRentalApp\\Views\\CarsView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T07:52:33.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CarsView.xaml",
+              "DocumentMoniker": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Views\\CarsView.xaml",
+              "RelativeDocumentMoniker": "AutoRentalApp\\Views\\CarsView.xaml",
+              "ToolTip": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Views\\CarsView.xaml",
+              "RelativeToolTip": "AutoRentalApp\\Views\\CarsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-05T07:51:48.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddEditClientWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Views\\AddEditClientWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AutoRentalApp\\Views\\AddEditClientWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Views\\AddEditClientWindow.xaml.cs",
+              "RelativeToolTip": "AutoRentalApp\\Views\\AddEditClientWindow.xaml.cs",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAAANgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T06:10:32.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddEditClientWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Views\\AddEditClientWindow.xaml",
+              "RelativeDocumentMoniker": "AutoRentalApp\\Views\\AddEditClientWindow.xaml",
+              "ToolTip": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Views\\AddEditClientWindow.xaml",
+              "RelativeToolTip": "AutoRentalApp\\Views\\AddEditClientWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-05T06:10:02.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ClientsView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Views\\ClientsView.xaml.cs",
+              "RelativeDocumentMoniker": "AutoRentalApp\\Views\\ClientsView.xaml.cs",
+              "ToolTip": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Views\\ClientsView.xaml.cs",
+              "RelativeToolTip": "AutoRentalApp\\Views\\ClientsView.xaml.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAJAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T05:51:56.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ClientsView.xaml",
+              "DocumentMoniker": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Views\\ClientsView.xaml",
+              "RelativeDocumentMoniker": "AutoRentalApp\\Views\\ClientsView.xaml",
+              "ToolTip": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Views\\ClientsView.xaml",
+              "RelativeToolTip": "AutoRentalApp\\Views\\ClientsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-05T05:51:28.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AdminWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Views\\AdminWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AutoRentalApp\\Views\\AdminWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Views\\AdminWindow.xaml.cs",
+              "RelativeToolTip": "AutoRentalApp\\Views\\AdminWindow.xaml.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwEwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T05:05:11.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Views\\AdminWindow.xaml",
+              "RelativeDocumentMoniker": "AutoRentalApp\\Views\\AdminWindow.xaml",
+              "ToolTip": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Views\\AdminWindow.xaml",
+              "RelativeToolTip": "AutoRentalApp\\Views\\AdminWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-05T05:03:52.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "ContractService.cs",
               "DocumentMoniker": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Models\\ContractService.cs",
               "RelativeDocumentMoniker": "AutoRentalApp\\Models\\ContractService.cs",
@@ -115,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "AdditionalService.cs",
               "DocumentMoniker": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Models\\AdditionalService.cs",
               "RelativeDocumentMoniker": "AutoRentalApp\\Models\\AdditionalService.cs",
@@ -128,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 22,
               "Title": "CarInspection.cs",
               "DocumentMoniker": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Models\\CarInspection.cs",
               "RelativeDocumentMoniker": "AutoRentalApp\\Models\\CarInspection.cs",
@@ -141,20 +328,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 21,
               "Title": "RegisterWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Views\\RegisterWindow.xaml.cs",
               "RelativeDocumentMoniker": "AutoRentalApp\\Views\\RegisterWindow.xaml.cs",
               "ToolTip": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Views\\RegisterWindow.xaml.cs",
               "RelativeToolTip": "AutoRentalApp\\Views\\RegisterWindow.xaml.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAowBMAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-04T12:52:47.273Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 14,
               "Title": "RegisterWindow.xaml",
               "DocumentMoniker": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Views\\RegisterWindow.xaml",
               "RelativeDocumentMoniker": "AutoRentalApp\\Views\\RegisterWindow.xaml",
@@ -166,20 +353,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 15,
               "Title": "LoginWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Views\\LoginWindow.xaml.cs",
               "RelativeDocumentMoniker": "AutoRentalApp\\Views\\LoginWindow.xaml.cs",
               "ToolTip": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Views\\LoginWindow.xaml.cs",
               "RelativeToolTip": "AutoRentalApp\\Views\\LoginWindow.xaml.cs",
-              "ViewState": "AgIAAH8AAAAAAAAAAAAcwCAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAiwKgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-04T12:23:54.215Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 2,
               "Title": "LoginWindow.xaml",
               "DocumentMoniker": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Views\\LoginWindow.xaml",
               "RelativeDocumentMoniker": "AutoRentalApp\\Views\\LoginWindow.xaml",
@@ -191,7 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 24,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "AutoRentalApp\\Services\\AuthService.cs",
@@ -199,187 +386,45 @@
               "RelativeToolTip": "AutoRentalApp\\Services\\AuthService.cs",
               "ViewState": "AgIAAGsAAAAAAAAAAAAIwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T12:19:50.832Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T12:19:50.832Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 17,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "AutoRentalApp\\Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Data\\AppDbContext.cs",
               "RelativeToolTip": "AutoRentalApp\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAiwCgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAiwEMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-04T12:19:08.304Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "AutoRentalApp\\Models\\Employee.cs",
-              "ToolTip": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Models\\Employee.cs",
-              "RelativeToolTip": "AutoRentalApp\\Models\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T12:09:37.547Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ContractStatus.cs",
-              "DocumentMoniker": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Models\\ContractStatus.cs",
-              "RelativeDocumentMoniker": "AutoRentalApp\\Models\\ContractStatus.cs",
-              "ToolTip": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Models\\ContractStatus.cs",
-              "RelativeToolTip": "AutoRentalApp\\Models\\ContractStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T12:09:15.161Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RentalContract.cs",
-              "DocumentMoniker": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Models\\RentalContract.cs",
-              "RelativeDocumentMoniker": "AutoRentalApp\\Models\\RentalContract.cs",
-              "ToolTip": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Models\\RentalContract.cs",
-              "RelativeToolTip": "AutoRentalApp\\Models\\RentalContract.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAIwC8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T12:02:20.393Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "CarStatus.cs",
               "DocumentMoniker": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Models\\CarStatus.cs",
               "RelativeDocumentMoniker": "AutoRentalApp\\Models\\CarStatus.cs",
               "ToolTip": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Models\\CarStatus.cs",
               "RelativeToolTip": "AutoRentalApp\\Models\\CarStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-04T12:01:44.309Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Car.cs",
               "DocumentMoniker": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Models\\Car.cs",
               "RelativeDocumentMoniker": "AutoRentalApp\\Models\\Car.cs",
               "ToolTip": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Models\\Car.cs",
               "RelativeToolTip": "AutoRentalApp\\Models\\Car.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowEoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAADwv1AAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-04T12:01:16.881Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Client.cs",
-              "DocumentMoniker": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Models\\Client.cs",
-              "RelativeDocumentMoniker": "AutoRentalApp\\Models\\Client.cs",
-              "ToolTip": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Models\\Client.cs",
-              "RelativeToolTip": "AutoRentalApp\\Models\\Client.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T12:00:00.458Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Role.cs",
-              "DocumentMoniker": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Models\\Role.cs",
-              "RelativeDocumentMoniker": "AutoRentalApp\\Models\\Role.cs",
-              "ToolTip": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Models\\Role.cs",
-              "RelativeToolTip": "AutoRentalApp\\Models\\Role.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T11:59:25.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Models\\User.cs",
-              "RelativeDocumentMoniker": "AutoRentalApp\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Models\\User.cs",
-              "RelativeToolTip": "AutoRentalApp\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T11:58:36.063Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DbHelper.cs",
-              "DocumentMoniker": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Helpers\\DbHelper.cs",
-              "RelativeDocumentMoniker": "AutoRentalApp\\Helpers\\DbHelper.cs",
-              "ToolTip": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\Helpers\\DbHelper.cs",
-              "RelativeToolTip": "AutoRentalApp\\Helpers\\DbHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T11:43:16.23Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\App.xaml",
-              "RelativeDocumentMoniker": "AutoRentalApp\\App.xaml",
-              "ToolTip": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\App.xaml",
-              "RelativeToolTip": "AutoRentalApp\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-04T11:16:16.494Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\App.config",
-              "RelativeDocumentMoniker": "AutoRentalApp\\App.config",
-              "ToolTip": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\App.config",
-              "RelativeToolTip": "AutoRentalApp\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2026-02-04T11:11:17.496Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "AutoRentalApp\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\MainWindow.xaml",
-              "RelativeToolTip": "AutoRentalApp\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-04T10:47:07.836Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "AutoRentalApp\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\ngdd\\Desktop\\ProkatAvto\\AutoRentalApp\\AutoRentalApp\\MainWindow.xaml.cs",
-              "RelativeToolTip": "AutoRentalApp\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T10:46:22.395Z",
               "EditorCaption": ""
             }
           ]
