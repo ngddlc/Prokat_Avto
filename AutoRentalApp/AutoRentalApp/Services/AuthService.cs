@@ -19,7 +19,7 @@ namespace AutoRentalApp.Services
         }
 
         /// <summary>
-        /// Хэширование пароля с использованием SHA256
+        /// Хэширование пароля 
         /// </summary>
         public string HashPassword(string password)
         {
@@ -84,6 +84,21 @@ namespace AutoRentalApp.Services
             {
                 _context.Users.Add(user);
                 _context.SaveChanges();
+
+                if (roleId == 3)
+                {
+                    var client = new Client
+                    {
+                        UserID = user.UserID, 
+                        PassportNumber = "", // Пустые значения по умолчанию
+                        DriverLicenseNumber = "",
+                        Phone = "",
+                        Email = null
+                    };
+                    _context.Clients.Add(client);
+                    _context.SaveChanges(); // Сохраняем клиента
+                }
+
                 return (true, "Регистрация успешна!");
             }
             catch (Exception ex)

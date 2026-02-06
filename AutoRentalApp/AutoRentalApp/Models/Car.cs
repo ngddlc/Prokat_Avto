@@ -81,7 +81,7 @@ namespace AutoRentalApp.Models
         public string VIN { get; set; }
 
         [Required]
-        [Column("carstatusid")] // ✅ ИСПРАВЛЕНО: Указано точное имя столбца из БД
+        [Column("carstatusid")] 
         public int CarStatusID { get; set; }
 
         [ForeignKey("CarStatusID")]

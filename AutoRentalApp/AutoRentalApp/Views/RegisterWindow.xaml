@@ -56,7 +56,6 @@
                                Foreground="#2196F3" Margin="0,20,0,15"/>
 
                     <TextBlock Text="Выберите роль" Style="{StaticResource FormLabel}"/>
-                    <!-- ИСПРАВЛЕНО: Убран стиль FormTextBox у ComboBox -->
                     <ComboBox x:Name="RoleComboBox" FontSize="14" Margin="0,4,0,8" Padding="8" SelectedIndex="0">
                         <ComboBoxItem Content="Клиент" Tag="3"/>
                         <ComboBoxItem Content="Менеджер" Tag="2"/>

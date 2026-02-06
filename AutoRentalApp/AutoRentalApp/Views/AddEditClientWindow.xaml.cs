@@ -1,7 +1,7 @@
 ﻿using AutoRentalApp.Data;
 using AutoRentalApp.Models;
 using System;
-using System.Linq; // ДОБАВЛЕНО: для метода Any()
+using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using System.Windows;
@@ -13,7 +13,7 @@ namespace AutoRentalApp.Views
     {
         private readonly AppDbContext _dbContext;
         private readonly Client _clientToEdit;
-        private User _userToEdit; // УБРАНО: readonly (была ошибка присвоения)
+        private User _userToEdit; 
 
         public AddEditClientWindow(AppDbContext dbContext, Client client)
         {
@@ -41,7 +41,6 @@ namespace AutoRentalApp.Views
 
         private void LoadClientData()
         {
-            // ИСПРАВЛЕНО: Используем FirstOrDefault вместо Find (Find не поддерживается в EF Core 2.2 для некоторых сценариев)
             _userToEdit = _dbContext.Users
                 .FirstOrDefault(u => u.UserID == _clientToEdit.UserID);
 
@@ -141,7 +140,6 @@ namespace AutoRentalApp.Views
             {
                 if (_clientToEdit == null)
                 {
-                    // ИСПРАВЛЕНО: Добавлено using System.Linq для метода Any()
                     if (_dbContext.Users.Any(u => u.Login == login))
                     {
                         LoginError.Text = "Логин уже занят";

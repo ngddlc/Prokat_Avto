@@ -196,12 +196,11 @@ namespace AutoRentalApp.Views
                     // Редактирование существующего сотрудника
                     _userToEdit.LastName = lastName;
                     _userToEdit.FirstName = firstName;
-                    // Логин не изменяется
 
                     _employeeToEdit.Position = position;
                     _employeeToEdit.HireDate = hireDate.Value;
 
-                    // Обновление роли (если изменилась)
+                    // Обновление роли 
                     if (selectedRole != null && (int)selectedRole.Tag != _userToEdit.RoleID)
                     {
                         _userToEdit.RoleID = (int)selectedRole.Tag;

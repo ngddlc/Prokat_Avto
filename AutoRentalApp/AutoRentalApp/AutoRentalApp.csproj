@@ -172,8 +172,17 @@
     <Compile Include="Views\CarsView.xaml.cs">
       <DependentUpon>CarsView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\ClientCarsCatalog.xaml.cs">
+      <DependentUpon>ClientCarsCatalog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ClientRentCarWindow.xaml.cs">
+      <DependentUpon>ClientRentCarWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\ClientsView.xaml.cs">
       <DependentUpon>ClientsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ClientWindow.xaml.cs">
+      <DependentUpon>ClientWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\EmployeesView.xaml.cs">
       <DependentUpon>EmployeesView.xaml</DependentUpon>
@@ -218,7 +227,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\ClientCarsCatalog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ClientRentCarWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\ClientsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ClientWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

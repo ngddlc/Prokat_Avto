@@ -1,7 +1,9 @@
 ﻿using AutoRentalApp.Data;
 using AutoRentalApp.Helpers;
 using AutoRentalApp.Services;
-using AutoRentalApp.Views; // ДОБАВЛЕНО: для доступа к окнам
+using AutoRentalApp.Views;
+using System;
+using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -16,7 +18,6 @@ namespace AutoRentalApp.Views
         {
             InitializeComponent();
 
-            // Инициализация контекста БД и сервиса авторизации
             string connectionString = DbHelper.GetConnectionString();
             _dbContext = new AppDbContext(connectionString);
             _authService = new AuthService(_dbContext);
@@ -24,34 +25,26 @@ namespace AutoRentalApp.Views
 
         private void LoginButton_Click(object sender, RoutedEventArgs e)
         {
-            // Очистка ошибок
             LoginErrorText.Visibility = Visibility.Collapsed;
             PasswordErrorText.Visibility = Visibility.Collapsed;
 
             string login = LoginBox.Text.Trim();
             string password = PasswordBox.Password.Trim();
 
-            // Валидация на клиенте
-            bool isValid = true;
-
             if (string.IsNullOrWhiteSpace(login))
             {
                 LoginErrorText.Text = "Введите логин";
                 LoginErrorText.Visibility = Visibility.Visible;
-                isValid = false;
+                return;
             }
 
             if (string.IsNullOrWhiteSpace(password))
             {
                 PasswordErrorText.Text = "Введите пароль";
                 PasswordErrorText.Visibility = Visibility.Visible;
-                isValid = false;
+                return;
             }
 
-            if (!isValid)
-                return;
-
-            // Авторизация через сервис (БЕЗ кортежей — для .NET Framework 4.7.2)
             var result = _authService.Login(login, password);
 
             if (result.success)
@@ -59,13 +52,12 @@ namespace AutoRentalApp.Views
                 MessageBox.Show($"Добро пожаловать, {result.user.FullName}!\nРоль: {result.user.Role?.RoleName}",
                     "Успешный вход", MessageBoxButton.OK, MessageBoxImage.Information);
 
-                // Перенаправление в зависимости от роли
                 OpenMainWindow(result.user);
-                this.Close();
             }
             else
             {
-                MessageBox.Show(result.message, "Ошибка авторизации", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show(result.message, "Ошибка авторизации",
+                    MessageBoxButton.OK, MessageBoxImage.Error);
                 PasswordBox.Clear();
             }
         }
@@ -73,44 +65,64 @@ namespace AutoRentalApp.Views
         private void RegisterButton_Click(object sender, RoutedEventArgs e)
         {
             var registerWindow = new RegisterWindow();
-            if (registerWindow.ShowDialog() == true)
-            {
-                // После успешной регистрации очищаем поля для нового входа
-                LoginBox.Clear();
-                PasswordBox.Clear();
-            }
+            registerWindow.ShowDialog();
+            LoginBox.Clear();
+            PasswordBox.Clear();
         }
 
         private void OpenMainWindow(AutoRentalApp.Models.User user)
         {
-            Window mainWindow = null;
-
-            switch (user.Role?.RoleName)
+            try
             {
-                case "администратор":
-                    // Создаем реальную панель администратора
-                    mainWindow = new AdminWindow(_authService, _dbContext);
-                    break;
+                Window mainWindow = null;
 
-                case "менеджер":
-                    // ВРЕМЕННАЯ ЗАГЛУШКА для менеджера (пока нет окна)
-                    mainWindow = CreatePlaceholderWindow(user.FullName, "Панель менеджера");
-                    break;
+                switch (user.Role?.RoleName)
+                {
+                    case "администратор":
+                        mainWindow = new AdminWindow(_authService, _dbContext);
+                        break;
 
-                case "клиент":
-                    // ВРЕМЕННАЯ ЗАГЛУШКА для клиента (пока нет окна)
-                    mainWindow = CreatePlaceholderWindow(user.FullName, "Личный кабинет клиента");
-                    break;
+                    case "менеджер":
+                        // Заглушка для менеджера
+                        mainWindow = CreatePlaceholderWindow(user.FullName, "Панель менеджера");
+                        break;
 
-                default:
-                    mainWindow = CreatePlaceholderWindow(user.FullName, "Главное окно");
-                    break;
+                    case "клиент":
+                        // Проверяем наличие клиента ДО создания окна
+                        var clientExists = _dbContext.Clients.Any(c => c.UserID == user.UserID);
+
+                        if (!clientExists)
+                        {
+                            MessageBox.Show(
+                                "Ошибка: данные клиента не найдены в системе.\n" +
+                                "Обратитесь к администратору для завершения регистрации.",
+                                "Ошибка",
+                                MessageBoxButton.OK,
+                                MessageBoxImage.Error);
+                            return;
+                        }
+
+                        mainWindow = new ClientWindow(_authService, _dbContext);
+                        break;
+
+                    default:
+                        mainWindow = CreatePlaceholderWindow(user.FullName, "Главное окно");
+                        break;
+                }
+
+                if (mainWindow != null)
+                {
+                    mainWindow.Show();
+                    this.Close();
+                }
             }
-
-            mainWindow.Show();
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Критическая ошибка: {ex.Message}", "Ошибка",
+                    MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
 
-        // ВРЕМЕННАЯ ЗАГЛУШКА: Создание простого окна для ролей без полноценного интерфейса
         private Window CreatePlaceholderWindow(string userName, string title)
         {
             var window = new Window
@@ -123,43 +135,45 @@ namespace AutoRentalApp.Views
             };
 
             var grid = new Grid();
-            grid.RowDefinitions.Add(new RowDefinition { Height = new System.Windows.GridLength(60) });
-            grid.RowDefinitions.Add(new RowDefinition { Height = new System.Windows.GridLength(1, System.Windows.GridUnitType.Star) });
+            grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(60) });
+            grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(1, GridUnitType.Star) });
 
             // Шапка
-            var header = new System.Windows.Controls.Border
+            var header = new Border
             {
-                Background = new System.Windows.Media.SolidColorBrush((System.Windows.Media.Color)System.Windows.Media.ColorConverter.ConvertFromString("#2196F3")),
-                Padding = new System.Windows.Thickness(20, 0, 20, 0)
+                Background = new System.Windows.Media.SolidColorBrush(
+                    (System.Windows.Media.Color)System.Windows.Media.ColorConverter.ConvertFromString("#2196F3")),
+                Padding = new Thickness(20, 0, 20, 0)
             };
-            var headerPanel = new System.Windows.Controls.StackPanel { Orientation = System.Windows.Controls.Orientation.Horizontal };
-            headerPanel.Children.Add(new System.Windows.Controls.TextBlock { Text = "🚗 ", FontSize = 24, Foreground = System.Windows.Media.Brushes.White });
-            headerPanel.Children.Add(new System.Windows.Controls.TextBlock
+            var headerPanel = new StackPanel { Orientation = Orientation.Horizontal };
+            headerPanel.Children.Add(new TextBlock
+            {
+                Text = "🚗 ",
+                FontSize = 24,
+                Foreground = System.Windows.Media.Brushes.White
+            });
+            headerPanel.Children.Add(new TextBlock
             {
                 Text = $"{title} | {userName}",
                 FontSize = 18,
-                FontWeight = System.Windows.FontWeights.Bold,
+                FontWeight = FontWeights.Bold,
                 Foreground = System.Windows.Media.Brushes.White,
-                VerticalAlignment = System.Windows.VerticalAlignment.Center
+                VerticalAlignment = VerticalAlignment.Center
             });
             header.Child = headerPanel;
-            System.Windows.Controls.Grid.SetRow(header, 0);
+            Grid.SetRow(header, 0);
             grid.Children.Add(header);
 
             // Контент
-            var content = new System.Windows.Controls.TextBlock
+            var content = new TextBlock
             {
-                Text = $"Добро пожаловать в систему проката автомобилей!\n\n" +
-                       $"✅ Авторизация успешна\n" +
-                       $"✅ Роль: {title}\n" +
-                       $"✅ Пользователь: {userName}\n\n" +
-                       "Полноценный интерфейс для этой роли находится в разработке.",
+                Text = $"Добро пожаловать, {userName}!\n\nРоль: {title}\n\nПолноценный интерфейс находится в разработке.",
                 FontSize = 16,
-                TextAlignment = System.Windows.TextAlignment.Center,
-                VerticalAlignment = System.Windows.VerticalAlignment.Center,
-                Margin = new System.Windows.Thickness(20)
+                TextAlignment = TextAlignment.Center,
+                VerticalAlignment = VerticalAlignment.Center,
+                Margin = new Thickness(20)
             };
-            System.Windows.Controls.Grid.SetRow(content, 1);
+            Grid.SetRow(content, 1);
             grid.Children.Add(content);
 
             window.Content = grid;

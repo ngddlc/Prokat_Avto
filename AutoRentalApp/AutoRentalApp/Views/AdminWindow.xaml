@@ -53,7 +53,7 @@
                 </StackPanel>
             </Border>
 
-            <!-- Область контента (сюда загружаются UserControl'ы) -->
+            <!-- Область контента -->
             <Border Grid.Column="1" Background="White" CornerRadius="8" Padding="15">
                 <ContentControl x:Name="ContentArea" Margin="0,0,0,61"/>
             </Border>

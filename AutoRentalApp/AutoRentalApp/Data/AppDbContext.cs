@@ -39,28 +39,28 @@ namespace AutoRentalApp.Data
 
             // Настройка связей между таблицами
 
-            // Связь User ↔ Role
+            // Связь User  Role
             modelBuilder.Entity<User>()
                 .HasOne(u => u.Role)
                 .WithMany()
                 .HasForeignKey(u => u.RoleID)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            // Связь Client ↔ User
+            // Связь Client  User
             modelBuilder.Entity<Client>()
                 .HasOne(c => c.User)
                 .WithMany()
                 .HasForeignKey(c => c.UserID)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            // Связь Employee ↔ User
+            // Связь Employee  User
             modelBuilder.Entity<Employee>()
                 .HasOne(e => e.User)
                 .WithMany()
                 .HasForeignKey(e => e.UserID)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            // Связь Car ↔ CarStatus
+            // Связь Car  CarStatus
             modelBuilder.Entity<Car>()
                 .HasOne(c => c.CarStatus)
                 .WithMany()
@@ -92,14 +92,14 @@ namespace AutoRentalApp.Data
                 .HasForeignKey(rc => rc.ContractStatusID)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            // Связь CarInspection ↔ RentalContract
+            // Связь CarInspection  RentalContract
             modelBuilder.Entity<CarInspection>()
                 .HasOne(ci => ci.Contract)
                 .WithMany()
                 .HasForeignKey(ci => ci.ContractID)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            // Связи для ContractService (многие-ко-многим через промежуточную таблицу)
+            // Связи для ContractService 
             modelBuilder.Entity<ContractService>()
                 .HasOne(cs => cs.Contract)
                 .WithMany()
